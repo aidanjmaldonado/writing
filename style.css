@@ -12,22 +12,30 @@ main {
 
 h1 {
     font-size: 32px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace
 }
 
 .home {
     margin-left: 48px;
-    font-size: 24px
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.back {
+.redirect {
     font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 pre {
     font-size: 14px;
     margin-left: 48px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 16px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .copyright_box {
@@ -38,7 +46,8 @@ pre {
 
 .copyright {
     font-size: 8px;
-    text-align: center; /* Or left/right as needed */
-    padding: 10px 0; /* Add some padding for visual spacing */
-    background-color: #ffffff; /* Example background color */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ffffff;
   }
