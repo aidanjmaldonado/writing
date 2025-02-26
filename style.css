@@ -1,3 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding-left: 10px;
+}
+
+main {
+    flex: 1;
+}
+
 h1 {
     font-size: 32px;
 }
@@ -17,3 +29,16 @@ pre {
     font-family: 'Times New Roman', Times, serif;
     line-height: 16px;
 }
+
+.copyright_box {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.copyright {
+    font-size: 8px;
+    text-align: center; /* Or left/right as needed */
+    padding: 10px 0; /* Add some padding for visual spacing */
+    background-color: #ffffff; /* Example background color */
+  }
